@@ -1,8 +1,9 @@
+# Script para gerar planilha com conex mysql
+# autor: Hebert Riberio
+
 import openpyxl
 import mysql.connector
 from openpyxl import Workbook
-# Script para gerar planilha com conex mysql
-# autor: Hebert Riberio
 
 #Função para executar a consulta SQL e retornar o resultado
 def executar_consulta_sql(usuario):
