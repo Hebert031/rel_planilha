@@ -2,16 +2,6 @@ import openpyxl
 import mysql.connector
 from openpyxl import Workbook
 
-#Criar relatorio 
-#    Envio total de cada conta no nos meses de Março, Abril e Maio.
-#    Dentro de cada mês o dia de Maior quantidade de envios e nesse dia, qual a quantidade de envios.
-#Autor:Hebert RIbeiro
-#pip install mysql-connector-python
-#https://openpyxl.readthedocs.io/en/stable/
-#https://openpyxl.readthedocs.io/en/stable/worksheet_tables.html
-
-
-
 #Função para executar a consulta SQL e retornar o resultado
 def executar_consulta_sql(usuario):
     # Configurações de conexão com o banco de dados MySQL
