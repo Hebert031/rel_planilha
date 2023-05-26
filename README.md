@@ -6,6 +6,7 @@
 # Autor:Hebert Ribeiro
 
    * pip install mysql-connector-python
+   * pip install openpyxl
 
 
 * https://openpyxl.readthedocs.io/en/stable/
