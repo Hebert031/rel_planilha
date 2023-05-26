@@ -1,6 +1,8 @@
 import openpyxl
 import mysql.connector
 from openpyxl import Workbook
+#script gera planilha + mysql
+#autor: Hebert Riberio
 
 #Função para executar a consulta SQL e retornar o resultado
 def executar_consulta_sql(usuario):
