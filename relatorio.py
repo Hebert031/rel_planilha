@@ -9,10 +9,10 @@ def executar_consulta_sql(usuario):
     # Configurações de conexão com o banco de dados MySQL
     config = {
         'user': 'root',
-        'password': 'Informg@1991',
-        'host': 'cloud01.hstech.cloud',
+        'password': 'm@M@vV',
+        'host': 'vps-suporte-migra.m9.network',
         'database': 'supramail',
-        'port': '3306',
+        'port': '3307',
     }
 
     #Conecta ao banco de dados
