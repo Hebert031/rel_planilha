@@ -52,7 +52,7 @@ for resultado in resultados:
     envios = resultado[1]
 
     # Verifica se a data está dentro do ano e mês desejados (maio de 2023)
-    if data.year == 2023 and data.month == 5:
+    if data.year in 2023 and data.month in 5:
         # Atualiza o total de envios para a conta
         relatorio_conta['Total de envios'] += envios
 
